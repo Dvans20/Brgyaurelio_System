@@ -1,0 +1,6 @@
+1. Modify .htaccess file Change RewriteBase /aurelio/admin/ to RewriteBase /
+
+2. on index.php modify $url change  $url .= "/aurelio/admin/";  to $url .= "/"; 
+3. on index.php modify $currentUri index change  $currentUri = explode("/", $currentUri)[2]; to $currentUri = explode("/", $currentUri)[0];
+
+3. Modify Database Connection;

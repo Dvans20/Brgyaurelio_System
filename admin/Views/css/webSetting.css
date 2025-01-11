@@ -1,0 +1,29 @@
+
+.web_setting_cont {
+    height: 15rem;
+    text-overflow: ellipsis !important;
+    overflow-x: hidden !important;
+    overflow-y: auto;
+    text-align: justify;
+    padding: 1rem;
+
+}
+
+.web_setting_cont_textarea {
+    height: 15rem;
+    text-align: justify;
+}
+
+#aboutLoadingCont {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.web_setting_cont_info {
+    height: 5.5rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: justify;
+}

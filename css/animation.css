@@ -1,0 +1,135 @@
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes shakeIn {
+    0% {transform: translateX(-10px); opacity: 0;}
+    10% {transform: translateX(9px);}
+    20% {transform: translateX(-8px);}
+    30% {transform: translateX(7px);}
+    40% {transform: translateX(-6px);}
+    50% {transform: translateX(5px);}
+    60% {transform: translateX(-4px);}
+    70% {transform: translateX(3px);}
+    80% {transform: translateX(-2px);}
+    90% {transform: translateX(1px);}
+    100% {transform: translateX(0); opacity: 1;}
+}
+
+@keyframes animateModal {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes popIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes popUp {
+    from {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes popLeft {
+    from {
+        opacity: 0;
+        transform: translateX(60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes popRight {
+    from {
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes popOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* modal animation */
+
+@keyframes animateModalContentError {
+    0% {opacity: 0; transform: rotate(10deg)}
+    10% {opacity: .10; transform: rotate(-9deg)}
+    20% {opacity: .20; transform: rotate(8deg)}
+    30% {opacity: .30; transform: rotate(-7deg)}
+    40% {opacity: .40; transform: rotate(6deg)}
+    50% {opacity: .50; transform: rotate(-5deg)}
+    60% {opacity: .60; transform: rotate(4deg)}
+    70% {opacity: .70; transform: rotate(-3deg)}
+    80% {opacity: .80; transform: rotate(2deg)}
+    90% {opacity: .90; transform: rotate(-1deg)}
+    100% {opacity: 1; transform: rotate(0deg)}
+}
+
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes popZoomIn {
+    0% {opacity: 0; transform: scale(.7)}
+    50% {opacity: 0; transform: scale(1.1)}
+    100% {opacity: 1; transform: scale(1)}
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    } to {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+}
+
+/* end of modal animation */

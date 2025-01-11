@@ -1,0 +1,26 @@
+
+.btn_bgs {
+    /* background-image: url("images/topics/undraw_Remote_design_team_re_urdx.png") !important; */
+    /* background-color: red; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.custom-block-inner-h {
+    /* background-color: red; */
+    height: 10rem;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+    text-align: justify;
+
+}
+
+/* #aboutReadMore {
+    bottom: 0;
+    position: absolute;
+
+} */

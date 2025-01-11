@@ -1,0 +1,8 @@
+Final SMS Message: Please retry the registration/update process or contact us at 09876543210 or email aurelio@aurelio.com.ph. Visit us at P-2 Aurelio, San Jose, Dinagat Islands
+
+Reasons:
+- Incomplete Information: Required fields not filled out or missing necessary data.
+- Inconsistent Data: New information doesn’t match existing records.
+- Verification Issues: Difficulty verifying the identity of the person making the update.
+- Suspicious Activity:  Detection of potential fraudulent activity associated with the account.
+

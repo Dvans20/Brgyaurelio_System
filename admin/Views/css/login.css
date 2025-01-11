@@ -1,0 +1,28 @@
+
+
+.login_container .card img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+
+.login_container .card {
+    max-width: 500px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    min-width: 300px;
+}
+
+.login_container #passwordEyeBtn {
+    float: right;
+    margin-top: -3.55rem;
+    z-index: 99 !important;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.login_container input {
+    z-index: -1;
+}

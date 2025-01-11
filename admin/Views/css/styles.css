@@ -1,0 +1,337 @@
+@import "animation.css";
+@import "variables.css";
+
+body {
+    background-color: rgb(210, 230, 255) !important;
+    width: 100vw !important;
+    display: block;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-body {
+    background-color: rgb(190, 230, 255) !important;
+}
+
+.line_text {
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+}
+
+.no_hide_line_text {
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
+
+.shake_in {
+    animation-name: shakeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.slide_in {
+    animation-name: slideIn;
+    animation-duration: 0.3s;
+}
+
+.fade_in {
+    animation-name: fadeIn !important;
+    animation-duration: .5s !important;
+    animation-fill-mode: forwards;
+}
+
+.fade_out {
+    animation-name: fadeOut !important;
+    animation-duration: .5s !important;
+    animation-fill-mode: forwards;
+}
+
+.pop_in_on_scroll {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 300ms;
+}
+
+.pop_in_on_scroll_to_left {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: 300ms;
+}
+
+.pop_in_on_scroll_to_right {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: 300ms;
+}
+
+.scroll_revealed {
+    animation-name: popUp;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+}
+
+.scroll_revealed_to_left {
+    animation-name: popLeft;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+}
+
+.scroll_revealed_to_right {
+    animation-name: popRight;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+}
+
+.zoom_on_hover {
+    transition: 300ms !important;
+    /* animation-duration: .3s; */
+}
+
+.zoom_on_hover:hover {
+    /* animation-name: zoomIn;
+    animation-duration: .3s;
+    animation-fill-mode: forwards; */
+    transition: 300ms !important;
+    transform: scale(1.08) translateY(-10px) !important;
+
+}
+
+hr {
+    background-color: rgba(0, 0, 50, .4);
+}
+
+.no_link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.no_link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.con_slide_in {
+    opacity: 0;
+    transform: translateX(10px);
+}
+
+.con_slide_up {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.con_slide_up_res {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.con_slide_in.showEL {
+    animation-name: slideIn;
+    animation-duration: .3s;
+    animation-fill-mode: forwards !important;
+}
+
+.con_slide_up.showEL {
+    animation-name: popUp;
+    animation-duration: .8s;
+    animation-fill-mode: forwards !important;
+}
+
+.con_slide_up_res.showEL {
+    animation-name: popUp;
+    animation-duration: .8s;
+    animation-fill-mode: forwards !important;
+}
+
+.paginate_btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: .5px solid #0d6efd;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-no-right-radius {
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.btn-no-left-radius {
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.paginate_btn_prev {
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.paginate_btn_next {
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.pwd_toggle_btn {
+    float: right;
+    cursor: pointer;
+    padding: .6rem;
+    margin-top: -50px;
+}
+
+.msg_section {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    z-index: 999;
+    max-width: 400px;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.table-vertical-center td {
+    vertical-align: middle;
+}
+
+.loan-table .amount {
+    vertical-align: middle;
+    text-align: right;
+}
+
+.loan-table td {
+    border: .5px solid rgb(150, 150, 150);
+}
+
+#msgSection {
+    z-index: 100;
+}
+
+.modal-content {
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, .4);
+}
+
+.bg-orange {
+    background-color: var(--bs-orange);
+}
+
+
+.form-check-input, .form-check-label {
+    cursor: pointer;
+}
+
+#searchForm .form-floating .form-control {
+    background-color: transparent !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    width: 100%;
+}
+
+.form-control-underline {
+    background-color: transparent !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    width: 100%;
+}
+
+#searchForm .form-floating .form-control:focus {
+    box-shadow: none;
+    border-radius: 0 !important;
+}
+
+.btn-none {
+    background: transparent;
+    border: none;
+    z-index: 8;
+}
+
+.no-focus:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: none;
+}
+
+.table th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table tr td {
+    vertical-align: middle;
+}
+
+main {
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+*:focus {
+    box-shadow: none !important;
+}
+
+.loading_screen_loader {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .5);
+    animation-name: fadeIn;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+
+}
+
+
+.loading_content_loader {
+    animation-name: fadeIn;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    padding: 5rem 0;
+    margin: 2rem 0 0 0;
+}
+
+.form-control.form-control-sm {
+    padding: .3rem !important;
+    font-size: smaller !important;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+.modal-body {
+    overflow: hidden !important;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+
+.card {
+    border: none !important;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
+}

@@ -1,0 +1,27 @@
+
+
+body {
+    /* width: calc(100% - 10px) !important; */
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+  /* For WebKit browsers (Chrome, Safari) */
+*::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    height: 10px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent; /* Transparent background for the track */
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: rgba(150, 150, 150, 0.5); /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background: rgba(150, 150, 150, 0.7); /* Color when hovered */
+  }
+  

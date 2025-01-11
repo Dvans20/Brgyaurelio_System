@@ -1,0 +1,66 @@
+
+@import "animation.css";
+@import "variables.css";
+
+
+.header {
+    width: 100%;
+    background-color:var(--bs-primary) ;
+}
+
+.header .header_btn {
+    padding: 1rem;
+    cursor: pointer;
+    color: #fff;
+    transition: 300ms;
+}
+
+.header .header_btn:hover {
+    background-color: var(--bs-bprimary-hover);
+}
+
+.header h3 {
+    padding: 1rem;
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color:#fff;
+}
+
+
+.header_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media (max-width: 769px) {
+    .header_container {
+        display: block;
+        justify-content: center;
+    }
+}
+
+
+#changePasswordForm #newPasswordEyeBtn {
+    float: right;
+    margin-top: -3.55rem;
+    z-index: 99 !important;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.notif_num_ico {
+
+    position: absolute;
+    font-size: 10px;
+    background-color: red;
+    padding: 3px;
+    border-radius: 5px;
+    top: 5px;
+    right: 5px;
+}
+
+
+
+

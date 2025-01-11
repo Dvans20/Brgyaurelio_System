@@ -1,0 +1,42 @@
+@import url(animation.css);
+
+.loading_screen_loader {
+    z-index: 999999999;
+    position:  fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .4);
+    animation-name: fadeIn;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+}
+
+.fade_out {
+    animation-name: fadeOut;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+}
+
+
+.shake_in {
+    animation-name: shakeIn;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+#appLoaderModal {
+    z-index: 999999999;
+    background-color: rgba(0, 0, 0, .4) !important;
+}
+
+.slide_in {
+    animation-name: slideIn;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+.fade_in {
+    animation-name: fadeIn;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
